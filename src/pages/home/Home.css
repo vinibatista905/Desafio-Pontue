@@ -1,0 +1,12 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+.Logout-Btn{
+    background-color: #325a89;
+    color: #f6f8ff;
+    width: 5rem;
+}

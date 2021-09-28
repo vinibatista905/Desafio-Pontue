@@ -1,0 +1,9 @@
+.Red{
+display: flex;
+flex-direction: column;
+}
+
+.voltar-btn{
+    background-color: #325a89;
+    color: #f6f8ff;
+}

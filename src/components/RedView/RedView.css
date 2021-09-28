@@ -1,0 +1,46 @@
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    width: 600px;
+    font-size: 1rem;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.20);
+}
+
+.content-table thead tr{
+    background-color: #0638eb;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+    font-size: 1rem;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+button{
+    background: #23ce6b;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #0638eb;
+    transition: all .3s ease-out;
+}
